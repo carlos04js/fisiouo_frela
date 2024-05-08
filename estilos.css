@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #191919;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #191919;
+}
+
+.barra-fixa {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    height: 10px;
+    color: white;
+    font-size: 35px;
+    background-color: #191919;
+}
+
+.barra-fixa span {
+    position: fixed;
+    color: #089016;
+}
+
+
+.cabecalho {
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    left: 930px;
+    padding-right: 2px;
+    padding-left: 5px;
+    width: 100%;
+    height: 10px;
+    background-color: #191919;
+
+}
+
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+li:hover {
+    color: #089016;
+    transition: 0.8s;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #089016;
+    transition: 0.8s;
+}
+
+
+h1 span {
+    color: #089016;
+
+}
+
+.titulo {
+    position: absolute;
+    left: 10%;
+    color: white;
+    top: 100px;
+
+
+}
+
+.titulo h1 {
+    top: 200px;
+    padding-left: 20px;
+    height: 250px;
+    top: 10px;
+    padding-right: 20px;
+    color: white;
+
+}
+
+h1 span {
+    color: #089016;
+}
+
+.titulo img {
+    height: 400px;
+    background-color: #191919;
+    top: 400px;
+    bottom: 20px;
+    display: flex;
+    border: 4px solid #191919;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.titulo img:hover {
+    border-color: #089016;
+    transition: 0.5;
+}
+
+.img-exposição {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.container {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.container h3 {
+    padding: 20px;
+}
+
+
+.sobre {
+
+    background-color: black;
+    position: static;
+    justify-items: baseline;
+    top: 500px;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+.sobre h2 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.container-sobre {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-sobre img {
+    height: 300px;
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: white;
+}
+
+.container-sobre img:hover {
+    border-color: #089016;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Descrição {
+    padding: 20px;
+}
+
+
+.sobre span {
+    color: #089016;
+}
+
+.btn-sobre {
+    border: none;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.entre-em-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-sobre img {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.card-localização span{
+    color: #089016;
+}
+
+.card-localização {
+    background-color: #191919;
+    color: white;
+    font-family: "Anton", sans-serif;
+    padding: 2%;
+    
+}
+
+
+.carousel-item img{
+    height: 450px;
+    width: 504px;
+    border-radius: 10px ;
+    
+}
+
+.carousel-control-prev-icon
+{
+    width: 100%;
+}
+
+.botao-sucesss{
+    padding: 2%;
+justify-content: space-around 5px;
+}
+
+.botao-sucesss a{
+text-decoration: none;
+color: #218f2c;
+}
+
+.botao-sucesss a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+    }
+footer{
+    background-color: black;
+
+}
+    .redes-footer{
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+        border-radius: 2px;
+        padding: 20px;
+
+    }
+
+    .informacoes-footer{
+        color: white;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .informacoes-footer h5{
+        font-size: 30px;
+
+    }
+
+    .informacoes-footer p{
+        font-size: 18px;
+    }
